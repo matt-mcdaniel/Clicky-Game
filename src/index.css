@@ -3,3 +3,34 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+header {
+  background: #e74747;
+  border-bottom: 1px solid #166316;
+  color: #cedbe7;
+}
+
+.tile {
+  min-height: 10px;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Sticky Footer */
+html, body, #root, .app-root { 
+  height: 100%;
+}
+.app-root {
+  display: flex; 
+  flex-direction: column;
+}
+main { 
+  flex: 1 0 auto; 
+}
+footer { 
+  margin-top: 2rem; 
+  padding-top: 1rem; 
+  padding-bottom: 1rem;
+  background: green;
+  color: #cedbe7;
+}
