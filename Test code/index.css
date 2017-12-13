@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  background: #e74747;
+  border-bottom: 1px solid #166316;
+  color: #cedbe7;
+}
+
+.images {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  padding: 8px;
+  margin: 5px;
+  transition: 300ms;
+}
+
+.images:hover {
+  transform: scale(1.1,1.1);
+  box-shadow: 5px 10px 18px #888888;
+}
+
+/* Sticky Footer */
+html, body, #root, .app-root { 
+  height: 100%;
+}
+.app-root {
+  display: flex; 
+  flex-direction: column;
+}
+main { 
+  flex: 1 0 auto; 
+}
+footer { 
+  margin-top: 2rem; 
+  padding-top: 1rem; 
+  padding-bottom: 1rem;
+  background: green;
+  color: #cedbe7;
+}
